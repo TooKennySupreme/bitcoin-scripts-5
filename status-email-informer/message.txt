@@ -1,0 +1,15 @@
+A new block has been found on the old BCC chain.
+
+Previous block info:
+Height = ${PREV_HEIGHT}
+Hash = ${PREV_HASH}
+Difficulty = ${PREV_DIFF}
+Time = ${PREV_TIME}
+MTP = ${PREV_MTP}
+
+New block info:
+Height = ${HEIGHT}
+Hash = ${HASH}
+Difficulty = ${DIFF}
+Time = ${TIME}
+MTP = ${MTP}
