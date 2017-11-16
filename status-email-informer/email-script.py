@@ -110,10 +110,8 @@ def process_info():
 
                     # Wait for new blocks
                     time.sleep(20)
-                    return process_info()
 
     time.sleep(20)
-    return process_info()
 
 # EMAIL FUNCTIONS
 
@@ -154,4 +152,5 @@ def send_email(data):
 
 if __name__ == '__main__':
     if (inic_globals()):
-        process_info()
+        while True:
+            process_info()
